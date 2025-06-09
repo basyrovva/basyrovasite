@@ -2296,8 +2296,6 @@ footer {
     background-color: rgb(25, 81, 172);
     transform-origin: bottom;
 }
-h2{
-    display: none;}
-.logo h1, h2 {
+.logo h1{
    display: none;
 }
