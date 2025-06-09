@@ -2299,5 +2299,5 @@ footer {
 h2{
     display: none;
 .logo h1, h2 {
-    opacity: 0;
+   display: none;
 }
