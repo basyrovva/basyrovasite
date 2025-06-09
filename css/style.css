@@ -2297,7 +2297,7 @@ footer {
     transform-origin: bottom;
 }
 h2{
-    display: none;
+    visible: hidden;
 .logo h1 {
     display: none;
 }
