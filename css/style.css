@@ -1044,10 +1044,6 @@
         align-items: center;
     }
 
-    a.ph1 img {
-        width: 45px;
-        height: 45px;
-    }
 
     .contain-services {
         display: flex;
@@ -2086,6 +2082,15 @@ input:focus {
     font-weight: 700;
 }
 
+i.play{
+    font-family: "bootstrap-icons";
+    font-size: 33px;
+    color: rgb(0, 110, 255);
+    transition: 0.3s ease-in-out;
+}
+i.play:hover{
+    color: rgb(0, 64, 148);
+}
 .p-second {
     color: rgba(134, 134, 149, 1);
     font-family: "Montserrat";
@@ -2272,18 +2277,24 @@ footer {
 }
 
 .head-btn button:hover,
-.button button:hover {
+.button button:hover,
+.head-btn button:focus,
+.button button:focus {
     background-color: rgb(131, 85, 0);
     color: white;
 }
 
 .head-center li:hover,
-.footer-center li:hover {
+.footer-center li:hover, 
+.head-center li:focus,
+.footer-center li:focus {
     color: rgb(255, 175, 28);
+    text-decoration: underline;
 }
 
 .card button:hover {
     background-color: rgb(25, 81, 172);
+    transform-origin: bottom;
 }
 
 .logo h1 {
