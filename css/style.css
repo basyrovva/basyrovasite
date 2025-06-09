@@ -2299,5 +2299,5 @@ footer {
 .logo h1{
    display: none;
 }
-.service-right h2 {
+.service-right h2, .what-left h2{
     display:none;
